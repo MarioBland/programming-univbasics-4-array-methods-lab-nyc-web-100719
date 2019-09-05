@@ -14,25 +14,31 @@ array = [
   ]
 
 def using_include(array, element)
-  array.include?(element)
+  puts array.include?(element)
 end
+using_include(array, element)
 
 def using_sort(array)
-  array.sort
+  puts array.sort
 end
+using_sort(array)
 
 def using_reverse(array)
-  array.reverse
+  puts array.reverse
 end
+using_reverse(array)
 
 def using_first(array)
-  array.first
+  puts array.first
 end
+using_first(array)
 
 def using_last(array)
-  array.last
+  puts array.last
 end
+using_last(array)
 
 def using_size(array)
-  array.size
+  puts array.size
 end
+using_size(array)
